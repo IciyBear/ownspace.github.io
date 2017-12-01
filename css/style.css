@@ -58,32 +58,32 @@ section {
   font-weight: 200;
   letter-spacing: 1px; }
   #mainNav .navbar-brand {
-    color: #fdcc52;
+    color: black;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-      color: #fcbd20; }
+      color: #d1d1d1; }
   #mainNav .navbar-toggler {
     font-size: 12px;
     padding: 8px 10px;
-    color: #222222; }
+    color: #d1d1d1; }
   #mainNav .navbar-nav > li > a {
     font-size: 11px;
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     letter-spacing: 2px;
     text-transform: uppercase; }
     #mainNav .navbar-nav > li > a.active {
-      color: #fdcc52 !important;
+      color: black !important;
       background-color: transparent; }
       #mainNav .navbar-nav > li > a.active:hover {
         background-color: transparent; }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
-    color: #222222; }
+    color: black; }
     #mainNav .navbar-nav > li > a:hover,
     #mainNav .navbar-nav > li > a:focus:hover {
-      color: #fdcc52; }
+      color: #d1d1d1; }
   @media (min-width: 992px) {
     #mainNav {
       border-color: transparent;
@@ -104,13 +104,13 @@ section {
         #mainNav.navbar-shrink .navbar-brand {
           color: #222222; }
           #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-            color: #fdcc52; }
+            color: #d1d1d1; }
         #mainNav.navbar-shrink .navbar-nav > li > a,
         #mainNav.navbar-shrink .navbar-nav > li > a:focus {
           color: #222222; }
           #mainNav.navbar-shrink .navbar-nav > li > a:hover,
           #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-            color: #fdcc52; } }
+            color: #d1d1d1; } }
 
 header.masthead {
   position: relative;
@@ -175,31 +175,31 @@ section.events {
     section.events h2 {
       font-size: 70px; } }
 
-section.features .section-heading {
+section.photos .section-heading {
   margin-bottom: 100px; }
-  section.features .section-heading h2 {
+  section.photos .section-heading h2 {
     margin-top: 0; }
-  section.features .section-heading p {
+  section.photos .section-heading p {
     margin-bottom: 0; }
 
-section.features .device-container,
-section.features .feature-item {
+section.photos .device-container,
+section.photos .feature-item {
   max-width: 325px;
   margin: 0 auto; }
 
-section.features .device-container {
+section.photos .device-container {
   margin-bottom: 100px; }
   @media (min-width: 992px) {
-    section.features .device-container {
+    section.photos .device-container {
       margin-bottom: 0; } }
 
-section.features .feature-item {
+section.photos .feature-item {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center; }
-  section.features .feature-item h3 {
+  section.photos .feature-item h3 {
     font-size: 30px; }
-  section.features .feature-item i {
+  section.photos .feature-item i {
     font-size: 80px;
     display: block;
     margin-bottom: 15px;
@@ -207,35 +207,6 @@ section.features .feature-item {
     background: linear-gradient(to left, #7b4397, #dc2430);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
-
-section.cta {
-  position: relative;
-  padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  section.cta .cta-content {
-    position: relative;
-    z-index: 1; }
-    section.cta .cta-content h2 {
-      font-size: 50px;
-      max-width: 450px;
-      margin-top: 0;
-      margin-bottom: 25px;
-      color: white; }
-    @media (min-width: 768px) {
-      section.cta .cta-content h2 {
-        font-size: 80px; } }
-  section.cta .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); }
 
 section.contact {
   text-align: center; }
@@ -284,9 +255,9 @@ footer {
         text-decoration: none; }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539); }
+  background: #ffffff;
+  background: -webkit-linear-gradient(#ffffff, #e8e8e8);
+  background: linear-gradient(#ffffff, #e8e8e8); }
 
 .text-primary {
   color: #fdcc52; }
